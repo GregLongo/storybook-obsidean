@@ -1,0 +1,48 @@
+
+.button{
+  border: solid 1px #fff;
+  color: #fff;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 24px;
+  padding-right: 24px;
+  vertical-align:top;
+  cursor: pointer;
+  background: transparent;  
+  transition: all .15s;
+  font-size: 14px;
+  font-weight: 200;
+  opacity: .9;
+}
+
+.button:hover {
+  opacity: 1; 
+ }
+
+.button:focus{
+  outline: none;
+}
+
+.button:active{
+  background: #fff;
+  color: #111;
+}
+
+.button-sm{
+  height: 24px; 
+  padding-top: 2px;  
+}
+
+.button-secondary{
+  padding: 0;
+  height:24px;
+  line-height: 14px;
+  border:none;
+  vertical-align: middle;
+}
+
+.button-secondary:active{
+  color: #fff;
+  background:initial;
+  text-decoration: underline;
+}
